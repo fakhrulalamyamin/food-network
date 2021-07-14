@@ -6,7 +6,8 @@ body {
      font-family: 'Montserrat', sans-serif;
 }
 
-header, section {
+header,
+section {
      padding: 50px 0;
 }
 
@@ -78,7 +79,7 @@ header img {
      margin-top: 100px;
 }
 
-.about-title {
+h2 {
      font-size: 40px;
      color: #707070;
      font-weight: 700;
@@ -88,4 +89,77 @@ header img {
      font-size: 18px;
      width: 70%;
      color: #18191F;
+}
+
+.recipe h2 {
+     text-align: center;
+}
+
+.recipe-des {
+     text-align: center;
+     width: 40%;
+     margin: 0 auto;
+     font-size: 18px;
+     color: #252525;
+     margin-bottom: 30px;
+}
+
+.col-3 {
+     width: 27%;
+     margin-left: 3%;
+     padding-left: 2%;
+     float: left;
+}
+
+.card {
+     padding: 15px;
+     border-radius: 33px;
+     box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+}
+
+.card-img {
+     width: 100%;
+}
+
+.card-title {
+     font-size: 28px;
+     color: #18191F;
+}
+
+.card-text {
+     font-size: 18px;
+}
+
+.container {
+     width: 1140px;
+     margin: 0 auto;
+     box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+     padding: 50px 0;
+}
+
+.follow-title {
+     font-size: 48px;
+     font-weight: 700;
+}
+
+.follow-des {
+     font-size: 16px;
+}
+
+footer {
+     padding: 60px 0;
+     text-align: center;
+     background-color: #0B0D17;
+     color: #bfbfbf;
+}
+
+.footer-title {
+     font-size: 30px;
+     color: #5B5B5B;
+     margin-bottom: 30px;
+     font-weight: 700;
+}
+
+.footer-title span {
+     color: #FBA24F;
 }
